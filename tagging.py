@@ -40,4 +40,4 @@ for pattern in patterns.keys():
 		patternGraph.add_edge(pattern, fileName)
 
 patternGraph.layout()
-patternGraph.draw('output.png')
+patternGraph.draw('output.png', prog='circo')
