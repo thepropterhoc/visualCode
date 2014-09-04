@@ -1,0 +1,117 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BeautifulSoup	Files/Stock.py	/^from BeautifulSoup import BeautifulSoup$/;"	i
+BusinessSpider	Files/Stock.py	/^class BusinessSpider(CrawlSpider):$/;"	c
+CTags	tagging.py	/^from ctags import CTags, TagEntry$/;"	i
+CrawlSpider	Files/Stock.py	/^from scrapy.contrib.spiders import CrawlSpider, Rule$/;"	i
+Geocoder	Files/Stock.py	/^from pygeocoder import Geocoder $/;"	i
+OAuthHandler	Files/Mining.py	/^from tweepy import OAuthHandler$/;"	i
+OAuthHandler	Files/TwitterMining.py	/^from tweepy import OAuthHandler$/;"	i
+Queue	Files/Mining.py	/^import json, sys, time, Queue, operator, os, re$/;"	i
+Queue	Files/TwitterMining.py	/^import Queue$/;"	i
+Rule	Files/Stock.py	/^from scrapy.contrib.spiders import CrawlSpider, Rule$/;"	i
+Selector	Files/Stock.py	/^from scrapy.selector import Selector$/;"	i
+SgmlLinkExtractor	Files/Stock.py	/^from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor$/;"	i
+Stream	Files/Mining.py	/^from tweepy import Stream$/;"	i
+Stream	Files/TwitterMining.py	/^from tweepy import Stream$/;"	i
+StreamListener	Files/Mining.py	/^from tweepy.streaming import StreamListener$/;"	i
+StreamListener	Files/TwitterMining.py	/^from tweepy.streaming import StreamListener$/;"	i
+TagEntry	tagging.py	/^from ctags import CTags, TagEntry$/;"	i
+Thread	Files/Mining.py	/^from threading import Thread$/;"	i
+Thread	Files/TwitterMining.py	/^from threading import Thread$/;"	i
+__init__	Files/test.py	/^	def __init__(self):$/;"	m	class:tester
+allowed_domains	Files/Stock.py	/^		allowed_domains = ['mininova.org']$/;"	v	class:BusinessSpider
+asecret	Files/Mining.py	/^asecret = 'zdmzGhXqTjQVfGjrRw7YuNi7RxVTAPFeR0oMC7rL6ebD6'$/;"	v
+atoken	Files/Mining.py	/^atoken = '1206754410-h5O8JclBfXVLt55mO8S3uRcyNFzOjBDLyB7Apqc'$/;"	v
+ckey	Files/Mining.py	/^ckey = 'tq0pLyOfKAZaKFrYpOs96vmTE'$/;"	v
+coordcount	Files/Mining.py	/^	coordcount = 0$/;"	v	class:worker
+country	Files/calls.py	/^        country="France",$/;"	v
+csecret	Files/Mining.py	/^csecret = 'kl6HeOMPDMIHWE4v6gAPoVJOhBS0KBjPhs42ZWBv54N1zVvkdP'$/;"	v
+ctags	tagging.py	/^import ctags$/;"	i
+data	Files/push.py	/^		data = {$/;"	v
+datetime	Files/Initial_Time.py	/^import datetime$/;"	i
+deconstruct	Files/push.py	/^		deconstruct = tuple(line.strip().split(','))$/;"	v
+description	Files/calls.py	/^        description="The aromas of fruit and spice...",$/;"	v
+entries	Files/TwitterMining.py	/^entries = Queue.Queue(1000)$/;"	v
+fetched	Files/Stock.py	/^		def fetched(self, response):$/;"	m	class:BusinessSpider
+ftplib	Files/TwitterMining.py	/^import ftplib$/;"	i
+grapes	Files/calls.py	/^        grapes="Grenache \/ Syrah",$/;"	v
+ipgetter	Files/Stock.py	/^import ystockquote, urllib2, re, time, ipgetter, json$/;"	i
+json	Files/Mining.py	/^import json, sys, time, Queue, operator, os, re$/;"	i
+json	Files/Stock.py	/^import ystockquote, urllib2, re, time, ipgetter, json$/;"	i
+json	Files/TwitterMining.py	/^import json$/;"	i
+json	Files/clear.py	/^import json$/;"	i
+json	Files/push.py	/^import json, requests$/;"	i
+keywords	Files/TwitterMining.py	/^keywords = ["car", "parking", "lot", "Parking", "Car", "Lot", "Truck", "truck"]$/;"	v
+lat	Files/Formatter.py	/^		lat = float(line.split(',')[0][1:])$/;"	v
+lines	Files/Cleaner.py	/^		lines = lines + line$/;"	v
+lines	Files/Cleaner.py	/^lines = ''$/;"	v
+listener	Files/Mining.py	/^class listener(StreamListener):$/;"	c
+listener	Files/TwitterMining.py	/^class listener(StreamListener):$/;"	c
+locked	Files/Mining.py	/^locked = False$/;"	v
+locs	Files/Mining.py	/^locs = list()$/;"	v
+lon	Files/Formatter.py	/^		lon = float(line.split(',')[1][:-2])$/;"	v
+myip	Files/Stock.py	/^myip = ipgetter.myip()$/;"	v
+name	Files/Stock.py	/^		name = 'business'$/;"	v	class:BusinessSpider
+name	Files/calls.py	/^        name="CHATEAU DE SAINT COSME",$/;"	v
+negatives	Files/TwitterMining.py	/^negatives = ['bad', 'terrible', 'horrendous', 'annoying', 'worst']$/;"	v
+newLines	Files/Cleaner.py	/^newLines = lines.split('[')$/;"	v
+newPoint	Files/Formatter.py	/^		newPoint = {}$/;"	v
+on_data	Files/TwitterMining.py	/^	def on_data(self, data):$/;"	m	class:listener
+on_error	Files/Mining.py	/^	def on_error(self, status):$/;"	m	class:listener
+on_error	Files/TwitterMining.py	/^	def on_error(self, status):$/;"	m	class:listener
+on_status	Files/Mining.py	/^	def on_status(self, status):$/;"	m	class:listener
+operator	Files/Mining.py	/^import json, sys, time, Queue, operator, os, re$/;"	i
+os	Files/Mining.py	/^import json, sys, time, Queue, operator, os, re$/;"	i
+payload	Files/calls.py	/^payload = dict($/;"	v
+picture	Files/calls.py	/^        picture="saint_cosme.jpg")$/;"	v
+plistlib	Files/Formatter.py	/^import plistlib$/;"	i
+plistlib	Files/TwitterMining.py	/^import plistlib$/;"	i
+pusher	Files/TwitterMining.py	/^class pusher(Thread):$/;"	c
+r	Files/calls.py	/^r = requests.delete("http:\/\/ec2-54-187-104-253.us-west-2.compute.amazonaws.com:3000\/wines\/534f617aff0677de0d89ec16")$/;"	v
+re	Files/Mining.py	/^import json, sys, time, Queue, operator, os, re$/;"	i
+re	Files/Stock.py	/^import ystockquote, urllib2, re, time, ipgetter, json$/;"	i
+region	Files/calls.py	/^        region="Southern Rhone",$/;"	v
+requests	Files/calls.py	/^import requests$/;"	i
+requests	Files/clear.py	/^import requests$/;"	i
+requests	Files/push.py	/^import json, requests$/;"	i
+response	Files/Stock.py	/^response = json.loads(urllib2.urlopen('http:\/\/www.telize.com\/geoip\/{0}'.format(myip)).read())$/;"	v
+results	Files/Stock.py	/^results = str(Geocoder.reverse_geocode(myLat, myLon))$/;"	v
+rules	Files/Stock.py	/^		rules = [Rule('fetched')]$/;"	v	class:BusinessSpider
+run	Files/Mining.py	/^	def run(self):$/;"	m	class:worker
+run	Files/TwitterMining.py	/^	def run(self):$/;"	m	class:pusher
+run	Files/TwitterMining.py	/^  def run(self):$/;"	m	class:worker
+run	Files/test.py	/^	def run(self):$/;"	m	class:tester
+seconds	Files/Mining.py	/^	seconds = ['pissed', 'miserable', 'misery', 'bad', 'isn\\'t working', 'terrible', 'annoying', 'slow', 'damn', 'fucking', 'sucks']$/;"	v	class:listener
+start	Files/Mining.py	/^  def start(self):$/;"	m	class:waiter
+start	Files/TwitterMining.py	/^  def start(self):$/;"	m	class:waiter
+start_urls	Files/Stock.py	/^		start_urls = ['http:\/\/www.whitepages.com\/business']$/;"	v	class:BusinessSpider
+sys	Files/Mining.py	/^import json, sys, time, Queue, operator, os, re$/;"	i
+sys	Files/TwitterMining.py	/^import sys$/;"	i
+sys	tagging.py	/^import sys$/;"	i
+tagFile	tagging.py	/^	tagFile = CTags('.\/Files\/tags')$/;"	v
+tester	Files/test.py	/^class tester(object):$/;"	c
+text	Files/push.py	/^			text = text + piece$/;"	v
+text	Files/push.py	/^		text = ""$/;"	v
+text	Files/push.py	/^		text = text[3:-1]$/;"	v
+theHash	Files/Mining.py	/^theHash = {}$/;"	v
+thePoints	Files/Formatter.py	/^thePoints = []$/;"	v
+time	Files/Mining.py	/^import json, sys, time, Queue, operator, os, re$/;"	i
+time	Files/Stock.py	/^import ystockquote, urllib2, re, time, ipgetter, json$/;"	i
+time	Files/TwitterMining.py	/^import time$/;"	i
+twitterasecret	Files/TwitterMining.py	/^twitterasecret = 'zdmzGhXqTjQVfGjrRw7YuNi7RxVTAPFeR0oMC7rL6ebD6'$/;"	v
+twitteratoken	Files/TwitterMining.py	/^twitteratoken = '1206754410-h5O8JclBfXVLt55mO8S3uRcyNFzOjBDLyB7Apqc'$/;"	v
+twitterckey	Files/TwitterMining.py	/^twitterckey = 'tq0pLyOfKAZaKFrYpOs96vmTE'$/;"	v
+twittercsecret	Files/TwitterMining.py	/^twittercsecret = 'kl6HeOMPDMIHWE4v6gAPoVJOhBS0KBjPhs42ZWBv54N1zVvkdP'$/;"	v
+urllib2	Files/Stock.py	/^import ystockquote, urllib2, re, time, ipgetter, json$/;"	i
+waiter	Files/Mining.py	/^class waiter(Thread):$/;"	c
+waiter	Files/TwitterMining.py	/^class waiter(Thread):$/;"	c
+worker	Files/Mining.py	/^class worker(Thread):$/;"	c
+worker	Files/TwitterMining.py	/^class worker(Thread):$/;"	c
+year	Files/calls.py	/^        year="2009",$/;"	v
+ystockquote	Files/Stock.py	/^import ystockquote, urllib2, re, time, ipgetter, json$/;"	i
+zipcode	Files/Stock.py	/^zipcode = results.split(',')[-2].strip().split(' ')[1]$/;"	v
