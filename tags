@@ -32,7 +32,7 @@ ckey	Files/Mining.py	/^ckey = 'tq0pLyOfKAZaKFrYpOs96vmTE'$/;"	v
 coordcount	Files/Mining.py	/^	coordcount = 0$/;"	v	class:worker
 country	Files/calls.py	/^        country="France",$/;"	v
 csecret	Files/Mining.py	/^csecret = 'kl6HeOMPDMIHWE4v6gAPoVJOhBS0KBjPhs42ZWBv54N1zVvkdP'$/;"	v
-ctags	tagging.py	/^import ctags$/;"	i
+ctags	tagging.py	/^import ctags, sys, os$/;"	i
 data	Files/push.py	/^		data = {$/;"	v
 datetime	Files/Initial_Time.py	/^import datetime$/;"	i
 deconstruct	Files/push.py	/^		deconstruct = tuple(line.strip().split(','))$/;"	v
@@ -40,6 +40,7 @@ description	Files/calls.py	/^        description="The aromas of fruit and spice.
 entries	Files/TwitterMining.py	/^entries = Queue.Queue(1000)$/;"	v
 entry	tagging.py	/^entry = TagEntry() $/;"	v
 fetched	Files/Stock.py	/^		def fetched(self, response):$/;"	m	class:BusinessSpider
+files	tagging.py	/^files = {}$/;"	v
 ftplib	Files/TwitterMining.py	/^import ftplib$/;"	i
 grapes	Files/calls.py	/^        grapes="Grenache \/ Syrah",$/;"	v
 ipgetter	Files/Stock.py	/^import ystockquote, urllib2, re, time, ipgetter, json$/;"	i
@@ -69,8 +70,12 @@ on_error	Files/TwitterMining.py	/^	def on_error(self, status):$/;"	m	class:liste
 on_status	Files/Mining.py	/^	def on_status(self, status):$/;"	m	class:listener
 operator	Files/Mining.py	/^import json, sys, time, Queue, operator, os, re$/;"	i
 os	Files/Mining.py	/^import json, sys, time, Queue, operator, os, re$/;"	i
+os	tagging.py	/^import ctags, sys, os$/;"	i
+patternGraph	tagging.py	/^patternGraph = pgv.AGraph()$/;"	v
+patterns	tagging.py	/^patterns = {}$/;"	v
 payload	Files/calls.py	/^payload = dict($/;"	v
 pgv	graphing.py	/^import pygraphviz as pgv$/;"	i
+pgv	tagging.py	/^import pygraphviz as pgv$/;"	i
 picture	Files/calls.py	/^        picture="saint_cosme.jpg")$/;"	v
 plistlib	Files/Formatter.py	/^import plistlib$/;"	i
 plistlib	Files/TwitterMining.py	/^import plistlib$/;"	i
@@ -93,11 +98,11 @@ seconds	Files/Mining.py	/^	seconds = ['pissed', 'miserable', 'misery', 'bad', 'i
 start	Files/Mining.py	/^  def start(self):$/;"	m	class:waiter
 start	Files/TwitterMining.py	/^  def start(self):$/;"	m	class:waiter
 start_urls	Files/Stock.py	/^		start_urls = ['http:\/\/www.whitepages.com\/business']$/;"	v	class:BusinessSpider
-status	tagging.py	/^status = tagFile.findNext(entry)$/;"	v
+status	tagging.py	/^	status = tagFile.next(entry)$/;"	v
 status	tagging.py	/^status = tagFile.next(entry)$/;"	v
 sys	Files/Mining.py	/^import json, sys, time, Queue, operator, os, re$/;"	i
 sys	Files/TwitterMining.py	/^import sys$/;"	i
-sys	tagging.py	/^import sys$/;"	i
+sys	tagging.py	/^import ctags, sys, os$/;"	i
 tagFile	tagging.py	/^	tagFile = CTags('tags')$/;"	v
 tester	Files/test.py	/^class tester(object):$/;"	c
 text	Files/push.py	/^			text = text + piece$/;"	v

@@ -32,12 +32,20 @@ while status:
 	status = tagFile.next(entry)
 
 
-
 patternGraph = pgv.AGraph()
 
 for pattern in patterns.keys():
 	for fileName in patterns[pattern]:
 		patternGraph.add_edge(pattern, fileName)
 
+fileGraph = pgv.AGraph()
+
+for fileName in files.keys():
+	for pattern in files[fileName]:
+		fileGraph.add_edge(fileName, pattern)
+
 patternGraph.layout()
-patternGraph.draw('output.png', prog='circo')
+patternGraph.draw('patterns.png', prog='circo')
+
+fileGraph.layout()
+fileGraph.draw('files.png', prog='circo')
