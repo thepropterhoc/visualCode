@@ -8,6 +8,7 @@ BeautifulSoup	Files/Stock.py	/^from BeautifulSoup import BeautifulSoup$/;"	i
 BusinessSpider	Files/Stock.py	/^class BusinessSpider(CrawlSpider):$/;"	c
 CTags	tagging.py	/^from ctags import CTags, TagEntry$/;"	i
 CrawlSpider	Files/Stock.py	/^from scrapy.contrib.spiders import CrawlSpider, Rule$/;"	i
+G	graphing.py	/^G=pgv.AGraph()$/;"	v
 Geocoder	Files/Stock.py	/^from pygeocoder import Geocoder $/;"	i
 OAuthHandler	Files/Mining.py	/^from tweepy import OAuthHandler$/;"	i
 OAuthHandler	Files/TwitterMining.py	/^from tweepy import OAuthHandler$/;"	i
@@ -37,6 +38,7 @@ datetime	Files/Initial_Time.py	/^import datetime$/;"	i
 deconstruct	Files/push.py	/^		deconstruct = tuple(line.strip().split(','))$/;"	v
 description	Files/calls.py	/^        description="The aromas of fruit and spice...",$/;"	v
 entries	Files/TwitterMining.py	/^entries = Queue.Queue(1000)$/;"	v
+entry	tagging.py	/^entry = TagEntry() $/;"	v
 fetched	Files/Stock.py	/^		def fetched(self, response):$/;"	m	class:BusinessSpider
 ftplib	Files/TwitterMining.py	/^import ftplib$/;"	i
 grapes	Files/calls.py	/^        grapes="Grenache \/ Syrah",$/;"	v
@@ -68,6 +70,7 @@ on_status	Files/Mining.py	/^	def on_status(self, status):$/;"	m	class:listener
 operator	Files/Mining.py	/^import json, sys, time, Queue, operator, os, re$/;"	i
 os	Files/Mining.py	/^import json, sys, time, Queue, operator, os, re$/;"	i
 payload	Files/calls.py	/^payload = dict($/;"	v
+pgv	graphing.py	/^import pygraphviz as pgv$/;"	i
 picture	Files/calls.py	/^        picture="saint_cosme.jpg")$/;"	v
 plistlib	Files/Formatter.py	/^import plistlib$/;"	i
 plistlib	Files/TwitterMining.py	/^import plistlib$/;"	i
@@ -90,10 +93,12 @@ seconds	Files/Mining.py	/^	seconds = ['pissed', 'miserable', 'misery', 'bad', 'i
 start	Files/Mining.py	/^  def start(self):$/;"	m	class:waiter
 start	Files/TwitterMining.py	/^  def start(self):$/;"	m	class:waiter
 start_urls	Files/Stock.py	/^		start_urls = ['http:\/\/www.whitepages.com\/business']$/;"	v	class:BusinessSpider
+status	tagging.py	/^status = tagFile.findNext(entry)$/;"	v
+status	tagging.py	/^status = tagFile.next(entry)$/;"	v
 sys	Files/Mining.py	/^import json, sys, time, Queue, operator, os, re$/;"	i
 sys	Files/TwitterMining.py	/^import sys$/;"	i
 sys	tagging.py	/^import sys$/;"	i
-tagFile	tagging.py	/^	tagFile = CTags('.\/Files\/tags')$/;"	v
+tagFile	tagging.py	/^	tagFile = CTags('tags')$/;"	v
 tester	Files/test.py	/^class tester(object):$/;"	c
 text	Files/push.py	/^			text = text + piece$/;"	v
 text	Files/push.py	/^		text = ""$/;"	v
